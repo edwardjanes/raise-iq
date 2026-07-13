@@ -92,15 +92,20 @@ ul { padding: 0; margin: 0; list-style: none; }
   align-items: center;
   gap: 10px;
   font-weight: 800;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   flex-shrink: 0;
+  letter-spacing: -0.02em;
 }
-.logo-mark {
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--accent), #4ade80);
-  display: inline-block;
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.logo-raise {
+  color: var(--accent);
+}
+.logo-iq {
+  color: #ffffff;
 }
 .main-nav {
   display: flex;
